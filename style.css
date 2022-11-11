@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.slidecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#output{
+    width: 260px; 
+    height: 200px; 
+    border: 1px solid black;  
+    text-size-adjust: auto; 
+    word-wrap: break-word;
+} 
+#txt{
+    font-family: 'Courier New', Courier, monospace;  
+} 
+#txt:focus{
+    outline: none; 
+    
+}
